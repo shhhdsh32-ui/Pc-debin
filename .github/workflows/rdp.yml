@@ -20,4 +20,4 @@ jobs:
 
     - name: Start CRD
       run: |
-        echo "Cole aqui o comando do Chrome Remote Desktop"
+        DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AfrIepC89UdGBXljI5ElxGCvoiIywlkFtTebBox9rfqdU-MWflalHz66N9YVWVUp7EbgZQ" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
